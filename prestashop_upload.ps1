@@ -10,7 +10,7 @@ if (!(Test-Path $ImageDir)) {
 }
 
 # Build Basic Auth header: key as username, empty password
-$pair       = "$ApiKey:"
+$pair       = "${ApiKey}:"
 $authHeader = "Basic " + [Convert]::ToBase64String(
     [Text.Encoding]::ASCII.GetBytes($pair)
 )
