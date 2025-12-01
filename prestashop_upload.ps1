@@ -1,5 +1,5 @@
 # ==== CONFIG ====
-$BaseUrl  = "http://393.939.393.939"                         # Webservice base URL or IP address
+$BaseUrl  = "http://393.939.393.939"                     # Webservice base URL or IP address
 $ApiKey   = "YOUR_REAL_API_KEY"                          # Webservice key
 $ImageDir = "C:\Users\lownd\DOWNLOADED\RESIZED"          # Folder with images named by product ID
 # ================
